@@ -1,0 +1,7 @@
+Source,Target,Connection Type,Voltage/Protocol,Cluster Source,Cluster Target
+EPS A1,OBC,Power,5V,POWER,—
+EPS A1,Payload 1,Power,3.3V,POWER,PAYLOADS
+OBC,Payload 1,Data,UART,—,PAYLOADS
+OBC,Payload 2,Data,LVDS,—,PAYLOADS
+OBC,ADCS Computer,Data,RS-422,—,ADCS
+S-band Radio,S-band Antenna,RF,RF,COMMS,COMMS

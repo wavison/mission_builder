@@ -1,0 +1,9 @@
+mode,time in mode,power generated
+Mode 1,60,power_generated_sun_nad
+Mode 2,30,power_generated_sun_nad
+Mode 1,60,power_generated_sun_nad
+Mode 2,30,power_generated_vel_sun
+Mode 1,60,power_generated_vel_sun
+Mode 2,30,power_generated_vel_sun
+Mode 1,60,power_generated_vel_sun
+Mode 2,30,power_generated_vel_sun

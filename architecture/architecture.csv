@@ -1,0 +1,20 @@
+Source,Target,Connection Type,Voltage/Protocol,Cluster Source,Cluster Target
+S-Band Radio,S-Band Antenna,RF,RF,Communication,Communication
+X-Band Radio,X-Band Antenna,RF,RF,Communication,Communication
+OBC,Payload 1,Data,UART,OBDH,Payloads
+OBC,Payload 2,Data,LVDS,OBDH,Payloads
+OBC,Propulsion,Data,RS-422,OBDH,ADCS
+OBC,GNSS Antenna,RF,RF,OBDH,OBDH
+OBC,ADCS Computer,Data,CAN,OBDH,ADCS
+OBC,EPS A1,Data,CAN,OBDH,Power
+OBC,X-Band Radio,Data,RS-422,OBDH,Communication
+OBC,S-Band Radio,Data,CAN,OBDH,Communication
+OBC,Thermal,Data,I2C,OBDH,Thermal
+EPS A1,OBC,Power,5V,Power,OBDH
+EPS A1,Payload 1,Power,12V,Power,PAYLOADS
+EPS A1,Payload 2,Power,3.3V,Power,PAYLOADS
+EPS A1,Propulsion,Power,5V,Power,ADCS
+EPS A1,ADCS Computer,Power,5V,Power,ADCS
+EPS A1,X-Band Radio,Power,5V,Power,Communication
+EPS A1,S-Band Radio,Power,5V,Power,Communication
+EPS A1,Thermal,Power,5V,Power,Thermal

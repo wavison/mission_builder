@@ -1,0 +1,37 @@
+System,Subsystem,Subsys Mode,Power Consumption (W),Source,Connected Power Line,Rationale
+Platform,EPSA1 & EPSA2,Undervoltage,1.1,Computed,SW_1,Notes go here.
+Platform,EPSA1 & EPSA2,Nominal,1.85,Computed,SW_2,Notes go here.
+Platform,EPSA1 & EPSA2,Panel Deployment,23.1,LAB Measurement,SW_3,Notes go here.
+Platform,EPSA2 Heaters,OFF,0,LAB Measurement,SW_4,Notes go here.
+Platform,EPSA2 Heaters,ON,8.72,Computed,SW_5,Notes go here.
+Platform,EPSA3,IDLE,0,Computed,SW_6,Notes go here.
+Platform,EPSA3,ON,1,Computed,SW_7,Notes go here.
+Platform,OBC,OFF,0,Computed,SW_8,Notes go here.
+Platform,OBC,HOUSEKEEPING,5.4,LAB Measurement,SW_9,Notes go here.
+Platform,OBC,High-Speed (x1 ETH),5.86,LAB Measurement,SW_10,Notes go here.
+Platform,OBC,High-Speed (x4 ETH),6.72,LAB Measurement,SW_11,Notes go here.
+Platform,COMMS S-BAND,OFF,0,Generic Assumption,SW_12,Notes go here.
+Platform,COMMS S-BAND,RX,1.78,LAB Measurement,SW_13,Notes go here.
+Platform,COMMS S-BAND,RXTX,11.51,LAB Measurement,SW_14,Notes go here.
+Platform,COMMS X-BAND,OFF,0,LAB Measurement,SW_15,Notes go here.
+Platform,COMMS X-BAND,IDLE,8.46,LAB Measurement,SW_16,Notes go here.
+Platform,COMMS X-BAND,TX,17.25,LAB Measurement,SW_17,Notes go here.
+Platform,ADCS,OFF,0,Computed,SW_18,Notes go here.
+Platform,ADCS,STANDYBY,0.24,Computed,SW_19,Notes go here.
+Platform,ADCS,LAW 1 (Detumbling),0.92,LAB Measurement,SW_20,Notes go here.
+Platform,ADCS,LAW 2 (Yaw Steering Observation),7.51,LAB Measurement,SW_21,Notes go here.
+Platform,ADCS,LAW 3 (Coasting),6.31,LAB Measurement,SW_22,Notes go here.
+Platform,ADCS,LAW 4 (GS Tracking),6.31,LAB Measurement,SW_23,Notes go here.
+Platform,ADCS,LAW 5 (Sun Pointing),6.31,LAB Measurement,SW_24,Notes go here.
+Platform,ADCS,LAW 6 (Sun-Optimisation),6.31,Computed,SW_25,Notes go here.
+Platform,PDPU,OFF,0,Computed,SW_26,Notes go here.
+Platform,PDPU,STANDYBY,1,Computed,SW_27,Notes go here.
+Platform,PDPU,ON,15,Computed,SW_28,Notes go here.
+Primary Payload,ASTROPAYLOAD,OFF,0,Computed,SW_29,Notes go here.
+Primary Payload,ASTROPAYLOAD,Stargazing,39.36,Computed,SW_30,Notes go here.
+Primary Payload,ASTROPAYLOAD,Aiming mirrors,26.52,Computed,SW_31,Notes go here.
+Primary Payload,ASTROPAYLOAD,Data processing,33.11,Computed,SW_32,Notes go here.
+Primary Payload,ASTROPAYLOAD,Payload Calibration,58.17,Computed,SW_33,Notes go here.
+Secondary Payload,ISL,OFF,0,Computed,SW_34,Notes go here.
+Secondary Payload,ISL,STANDBY,0.5,Computed,SW_35,Notes go here.
+Secondary Payload,ISL,ON,1.5,Computed,SW_36,Notes go here.
