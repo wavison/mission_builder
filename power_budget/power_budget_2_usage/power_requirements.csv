@@ -1,0 +1,45 @@
+System,Subsystem,Subsys Mode,Power Consumption (W),Source,Connected Power Line,Rationale
+Platform,EPSA1 & EPSA2,Undervoltage,1.1,Computed,,Notes go here.
+Platform,EPSA1 & EPSA2,Nominal,1.85,Computed,,Notes go here.
+Platform,EPSA1 & EPSA2,Panel Deployment,23.1,LAB Measurement,,Notes go here.
+Platform,EPSA2 Heaters,OFF,0,LAB Measurement,,Notes go here.
+Platform,EPSA2 Heaters,ON,8.72,Computed,,Notes go here.
+Platform,EPSA3,IDLE,0,Computed,,Notes go here.
+Platform,EPSA3,ON,1,Computed,,Notes go here.
+Platform,OBC,OFF,0,Computed,4.1,Notes go here.
+Platform,OBC,HOUSEKEEPING,5.4,LAB Measurement,4.1,Notes go here.
+Platform,OBC,High-Speed (x1 ETH),5.86,LAB Measurement,4.1,Notes go here.
+Platform,OBC,High-Speed (x4 ETH),6.72,LAB Measurement,4.1,Notes go here.
+Platform,S-BAND,OFF,0,Generic Assumption,6.1,Notes go here.
+Platform,S-BAND,RX,1.78,LAB Measurement,6.1,Notes go here.
+Platform,S-BAND,RXTX,11.51,LAB Measurement,6.1,Notes go here.
+Platform,X-BAND,OFF,0,LAB Measurement,5.1,Notes go here.
+Platform,X-BAND,IDLE,8.46,LAB Measurement,5.1,Notes go here.
+Platform,X-BAND,TX,17.25,LAB Measurement,5.1,Notes go here.
+Platform,ADCS,OFF,0,Computed,1.1,Notes go here.
+Platform,ADCS,STANDYBY,0.24,Computed,1.1,Notes go here.
+Platform,ADCS,LAW 1 Detumble,0.92,LAB Measurement,1.1,Notes go here.
+Platform,ADCS,LAW 2 Sun-simple,7.51,LAB Measurement,1.1,Notes go here.
+Platform,ADCS,LAW 3 Observation,6.31,LAB Measurement,1.1,Notes go here.
+Platform,ADCS,LAW 4 Coasting,6.31,LAB Measurement,1.1,Notes go here.
+Platform,ADCS,LAW 5 GS tracking,6.31,LAB Measurement,1.1,Notes go here.
+Platform,ADCS,LAW 6 Sun pointing,6.31,Computed,1.1,Notes go here.
+Platform,ADCS,LAW 7 Propulsion,6.31,Computed,1.1,Notes go here.
+Platform,PDPU,OFF,0,Computed,,Notes go here.
+Platform,PDPU,STANDYBY,1,Computed,,Notes go here.
+Platform,PDPU,ON,15,Computed,,Notes go here.
+Primary Payload,Payload 1,OFF,0,Datasheet,1.2,Notes go here.
+Primary Payload,Payload 1,LOW,2,Datasheet,1.2,Notes go here.
+Primary Payload,Payload 1,HIGH,5,Datasheet,1.2,Notes go here.
+Primary Payload,Payload 2,OFF,0,Datasheet,2.1,Notes go here.
+Primary Payload,Payload 2,NORMAL,2,Datasheet,2.1,Notes go here.
+Primary Payload,Payload 2,POST-LAUNCH,8,Datasheet,2.1,Notes go here.
+Primary Payload,Payload 3,OFF,0,Datasheet,2.2,Notes go here.
+Primary Payload,Payload 3,NORMAL,2.4,Datasheet,2.2,Notes go here.
+Primary Payload,Payload 4,OFF,0,Datasheet,A3.3,Notes go here.
+Primary Payload,Payload 4,NORMAL,2,Datasheet,A3.4,Notes go here.
+Primary Payload,Payload 5,OFF,0,Datasheet,6.2,Notes go here.
+Primary Payload,Payload 5,NORMAL,6,Datasheet,6.2,Notes go here.
+Primary Payload,Payload 6,OFF,0,Datasheet,2.3,Notes go here.
+Primary Payload,Payload 6,IMAGE,5,Datasheet,2.3,Notes go here.
+Primary Payload,Payload 6,READOUT,10,Datasheet,2.3,Notes go here.
